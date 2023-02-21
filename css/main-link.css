@@ -1,0 +1,43 @@
+.main-link {
+    display: inline-block;
+    background: #F6F3E3;
+    border-radius: 4px;
+    padding: 13px 46px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #241D1C;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-link:hover:not(disabled)   {
+    background: #EFE7BE;
+}
+
+.main-link:focus-visible {
+    outline: 1px solid #ffffff;
+}
+
+.main-link:disabled {
+    opacity: 0.4;
+}
+
+
+@media (max-width: 560px) {
+
+    .container {
+        padding: 0 24px;
+    }
+
+
+    .header__navigation {
+        display: none;
+    }
+
+    .main-link {
+        padding: 10px 24px;
+        font-size: 12px;
+    }
+}
