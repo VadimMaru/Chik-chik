@@ -50,8 +50,12 @@
 
 .about__item-title {
     margin: 0 0 8px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
 }
 
 .about__item-description {
     margin: 0;
+    line-height: 130%;
 }
